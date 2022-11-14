@@ -94,7 +94,10 @@ body {
 	font-weight: 500;
 	line-height: 1.75;
 	color: var(--textColor);
-	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 /* FONTS */
