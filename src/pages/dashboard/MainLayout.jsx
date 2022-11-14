@@ -32,6 +32,7 @@ const Wrapper = styled.div`
 	.main-layout {
 		display: flex;
 		max-height: 75vh;
+		min-height: 75vh;
 		gap: 5px;
 		background-color: #fff;
 		border-radius: 1rem;
