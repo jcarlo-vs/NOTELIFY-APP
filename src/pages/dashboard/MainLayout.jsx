@@ -26,14 +26,13 @@ export default MainLayout
 
 const Wrapper = styled.div`
 	min-height: 100vh;
-	border: solid 2px red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 	.main-layout {
 		display: flex;
-
+		min-height: 75vh;
 		gap: 5px;
 		background-color: #fff;
 		border-radius: 1rem;
@@ -41,13 +40,13 @@ const Wrapper = styled.div`
 
 	.left-container {
 		flex: 0.3;
-		max-height: 100%;
-		min-height: 80vh;
+		/* max-height: 100%;
+		min-height: 80vh; */
 	}
 
 	.right-container {
 		flex: 1;
-		min-height: 80vh;
+		/* min-height: 80vh; */
 		display: flex;
 		flex-direction: column;
 	}
