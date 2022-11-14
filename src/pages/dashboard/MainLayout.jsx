@@ -31,7 +31,7 @@ const Wrapper = styled.div`
 
 	.main-layout {
 		display: flex;
-		min-height: 75vh;
+		max-height: 75vh;
 		gap: 5px;
 		background-color: #fff;
 		border-radius: 1rem;
@@ -39,13 +39,11 @@ const Wrapper = styled.div`
 
 	.left-container {
 		flex: 0.3;
-		/* max-height: 100%;
-		min-height: 80vh; */
 	}
 
 	.right-container {
 		flex: 1;
-		/* min-height: 80vh; */
+		height: 75vh;
 		display: flex;
 		flex-direction: column;
 	}

@@ -36,8 +36,8 @@ const Navbar = () => {
 export default Navbar
 
 const Wrapper = styled.div`
-	height: 5rem;
 	padding: 0.2rem;
+	height: 100%;
 	flex: 0.1;
 	.navbar {
 		height: 100%;
