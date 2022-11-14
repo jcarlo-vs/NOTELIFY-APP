@@ -66,6 +66,7 @@ const Wrapper = styled.div`
 		background-color: #fff;
 		border-bottom-right-radius: 1rem;
 		gap: 5px;
+		border-radius: 1rem;
 	}
 	input {
 		flex: 0.12;
