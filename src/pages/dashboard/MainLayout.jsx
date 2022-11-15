@@ -28,23 +28,24 @@ const Wrapper = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+	max-height: 80vh;
 	.main-layout {
 		display: flex;
-		max-height: 75vh;
-		min-height: 75vh;
+
 		gap: 5px;
 		background-color: #fff;
 		border-radius: 1rem;
+		max-height: 80vh;
 	}
 
 	.left-container {
 		flex: 0.3;
+		/* height: 100%; */
 	}
 
 	.right-container {
 		flex: 1;
-		height: 75vh;
+		height: 80vh;
 		display: flex;
 		flex-direction: column;
 	}

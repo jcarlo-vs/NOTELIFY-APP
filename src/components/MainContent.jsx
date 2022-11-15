@@ -57,7 +57,6 @@ export default MainContent
 
 const Wrapper = styled.div`
 	flex: 1;
-	height: 100%;
 	form {
 		height: 100%;
 		display: flex;
