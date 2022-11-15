@@ -56,6 +56,7 @@ const Wrapper = styled.div`
 	padding: 1rem;
 	border-right: 1px solid #ddd;
 	min-height: 100%;
+	width: 100%;
 	.sidebar {
 		height: 100%;
 		display: flex;
@@ -92,13 +93,15 @@ const Wrapper = styled.div`
 
 	.notes_container {
 		flex: 1;
-		max-height: 35rem;
+
 		overflow-y: scroll;
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
 		padding: 0.2rem;
 		box-shadow: 0 0 0 1px #aaa;
+		height: 100%;
+		/* max-height: 35rem; */
 	}
 
 	.empty {

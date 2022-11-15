@@ -40,7 +40,7 @@ const Wrapper = styled.div`
 
 	.left-container {
 		flex: 0.3;
-		/* height: 100%; */
+		height: 80vh;
 	}
 
 	.right-container {

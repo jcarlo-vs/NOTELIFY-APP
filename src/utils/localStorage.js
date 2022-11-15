@@ -1,9 +1,9 @@
 const addUserToLocalStorage = (user) => {
-	localStorage.setItem('user', JSON.stringify(user))
+	localStorage.setItem('account', JSON.stringify(user))
 }
 
 const getUserFromLocalStorage = () => {
-	const results = localStorage.getItem('user')
+	const results = localStorage.getItem('account')
 	const user = results ? JSON.parse(results) : null
 	return user
 }
